@@ -1,0 +1,130 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--gray-600);
+}
+
+.container header{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background: var(--gray-700);
+}
+
+.container header img{
+    width: 7.875rem;
+    height: 3rem;
+    margin-top: 4.5rem;
+}
+
+.areaInput{
+    width: 46rem;
+    height: 3.375rem;
+    margin-top: -1.6875rem;
+    display: flex;
+}
+
+.areaInput input{
+    width: 39.875rem;
+    height: 3.375rem;
+    border-radius: 8px;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+    background: var(--gray-500);
+    color: var(--gray-300);
+}
+
+.areaInput input:focus{
+    box-sizing: initial;
+    outline: 2px solid var(--danger);
+}
+
+.btnCreate{
+    width: 5.625rem;
+    height: 3.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    transition: background-color 0.1s ;
+}
+
+.btnCreate:hover{
+    background: var(--blue);
+}
+
+.btnCreate:focus{
+    box-sizing: initial;
+    outline: 2px solid var(--danger);
+}
+
+.taskCounter{
+    width: 46rem;
+    height: 1.1875rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taskCounter div{
+    display: flex;
+    align-items: center;
+}
+
+.taskCounter div span{
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+}
+
+.taskCounter div:nth-child(1) span{
+    color: var(--blue);
+}
+
+.taskCounter div:nth-child(2) span{
+    color: var(--purple);
+}
+
+.taskCounter div label{
+    width: 1.5625rem;
+    height: 1.1875rem;
+    border-radius: 999px;
+    color: var(--gray-100);
+    background: var(--gray-400);
+    font-size: 0.875;
+    text-align: center;
+}
+
+.list{
+    width: 46rem;
+    height: 15.25rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list .imgEmpty{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.list .pEmpty{
+    color: var(--gray-300);
+    font-size: 1rem;
+}

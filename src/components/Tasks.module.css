@@ -1,0 +1,41 @@
+.containerTask{
+    width: 46rem;
+    height: 4.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    background: var(--gray-500);
+    border-radius: 8px;
+}
+
+.containerTask button{
+    width: 2rem;
+    height: 2rem;
+    background: var(--gray-500);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 0;
+    line-height: 0;
+}
+
+.containerTask .check{
+    width: 2rem;
+    height: 2rem;
+}
+
+.containerTask .trash{
+    width: 2rem;
+    height: 2rem;
+}
+
+.containerTask p{
+    width: 39.6875rem;
+    font-size: 0.875rem;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+    color: var(--gray-100);
+    line-height: 1.6;
+}
